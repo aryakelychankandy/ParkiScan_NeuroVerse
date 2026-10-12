@@ -1,3 +1,4 @@
+<img width="3168" height="2506" alt="architecture" src="https://github.com/user-attachments/assets/a03a2633-074f-4fd2-b4b4-a415f2cefb22" />
 # ParkiScan Neuroverse
 
 **A gamified, multimodal movement-screening and rehabilitation-support platform for people with Parkinson's, built to be accessible to people with disabilities.**
