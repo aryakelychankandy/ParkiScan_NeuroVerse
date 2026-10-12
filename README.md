@@ -1,3 +1,4 @@
+<img width="3004" height="2830" alt="architecture" src="https://github.com/user-attachments/assets/1a514b4a-3669-4132-83cd-aae87c3525b4" />
 ![Uploading architecture.png…]()
 # ParkiScan Neuroverse
 
