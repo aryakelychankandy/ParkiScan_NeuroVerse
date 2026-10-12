@@ -95,6 +95,4 @@ See `ParkiScanML/reports/training_report.md`.
 
 Keys go only in `ParkiScanML/.env` (git-ignored). An ElevenLabs key was shared earlier in a conversation; revoke it and create a new one before publishing.
 
-## Team
 
-Built by college students: Arya and Kajjol.
