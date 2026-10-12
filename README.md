@@ -1,3 +1,4 @@
+![Uploading architecture.png…]()
 # ParkiScan Neuroverse
 
 **A gamified, multimodal movement-screening and rehabilitation-support platform for people with Parkinson's, built to be accessible to people with disabilities.**
