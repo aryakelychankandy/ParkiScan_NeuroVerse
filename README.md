@@ -24,7 +24,8 @@ ParkiScan Neuroverse turns assessment into an accessible game. A participant pla
 
 Everything runs on the participant's own computer. The service binds to localhost and uploads nothing. Source for the diagram: [`docs/architecture.mmd`](docs/architecture.mmd) (SVG also in `docs/`).
 
-## Repository layout
+## Repository layout<img width="3168" height="2506" alt="architecture" src="https://github.com/user-attachments/assets/3280f530-8833-4bd0-8690-154f22b7526f" />
+
 
 ```
 ParkiScanML/        Local analysis service (Python): API, features, training, firmware, tests. See ParkiScanML/README.md
