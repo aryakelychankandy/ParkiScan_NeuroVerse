@@ -1,5 +1,4 @@
-<img width="3004" height="2830" alt="architecture" src="https://github.com/user-attachments/assets/1a514b4a-3669-4132-83cd-aae87c3525b4" />
-![Uploading architecture.png…]()
+
 # ParkiScan Neuroverse
 
 **A gamified, multimodal movement-screening and rehabilitation-support platform for people with Parkinson's, built to be accessible to people with disabilities.**
@@ -13,7 +12,8 @@ Parkinson's disease is usually detected late and monitored only in occasional cl
 ParkiScan Neuroverse turns assessment into an accessible game. A participant plays short tasks (eye tracking, voice, memory, spiral drawing, reaction, gait), seated or standing, while a webcam, microphone and two low-cost wearable motion sensors record movement features. A local service turns these into a per-session summary that a clinician or caregiver can review and compare over time.
 
 ## Architecture
-
+<img width="3004" height="2830" alt="architecture" src="https://github.com/user-attachments/assets/1a514b4a-3669-4132-83cd-aae87c3525b4" />
+![Uploading architecture.png…]()
 ![ParkiScan Neuroverse architecture](docs/architecture.png)
 
 | Layer | What it is in this repo |
