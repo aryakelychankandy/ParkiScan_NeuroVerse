@@ -1,0 +1,61 @@
+{
+  "dataset": "daphnet",
+  "model": "hist_gradient_boosting",
+  "features": [
+    "x_std",
+    "x_p_loco",
+    "x_p_freeze",
+    "x_freeze_index",
+    "y_std",
+    "y_p_loco",
+    "y_p_freeze",
+    "y_freeze_index",
+    "z_std",
+    "z_p_loco",
+    "z_p_freeze",
+    "z_freeze_index",
+    "mag_std",
+    "mag_p_loco",
+    "mag_p_freeze",
+    "mag_freeze_index",
+    "mag_total_power"
+  ],
+  "task": "classification (event detection)",
+  "label": "freezing-of-gait window (1) vs walking/standing (0)",
+  "trained_utc": "2026-10-11T20:11:35.227940+00:00",
+  "n_participants": 10,
+  "disclaimer": "Research benchmark on a small public dataset with participant-grouped cross-validation. Not clinically validated; not for diagnosis or screening decisions.",
+  "cv_summary": {
+    "recording_level": {
+      "n": 17720,
+      "balanced_accuracy": 0.7966781614620297,
+      "f1": 0.45684919369129895,
+      "sensitivity": 0.7591283863368669,
+      "specificity": 0.8342279365871926,
+      "roc_auc": 0.8841427217493496,
+      "roc_auc_95ci_participant_bootstrap": [
+        0.8460927832235561,
+        0.9187050303254659
+      ]
+    },
+    "roc_auc_across_repeats": {
+      "mean": 0.8841427217493496,
+      "sd": 0.0,
+      "repeats": 1
+    },
+    "per_subject_auc": {
+      "S01": 0.9694953420938984,
+      "S02": 0.8927690895675491,
+      "S03": 0.8851868258661365,
+      "S05": 0.8677348839586553,
+      "S06": 0.8951720695722793,
+      "S07": 0.9368815633527191,
+      "S08": 0.6622597967425553,
+      "S09": 0.9299256708607927
+    }
+  },
+  "quality_flags": [
+    "SMALL_SAMPLE: only 10 participants"
+  ],
+  "usable_for_research_scores": true
+}

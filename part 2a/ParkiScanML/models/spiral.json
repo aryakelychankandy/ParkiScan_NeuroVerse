@@ -1,0 +1,47 @@
+{
+  "dataset": "spiral",
+  "model": "random_forest",
+  "features": [
+    "duration_s",
+    "path_length_norm",
+    "loops",
+    "speed_mean",
+    "speed_cv",
+    "radial_rmse_norm",
+    "pen_lifts",
+    "pressure_mean",
+    "pressure_cv",
+    "log_dimensionless_jerk",
+    "tremor_band_ratio_4_8hz",
+    "tremor_peak_hz",
+    "velocity_mean_norm"
+  ],
+  "task": "classification",
+  "label": "PD (1) vs control (0)",
+  "trained_utc": "2026-10-11T20:11:35.227940+00:00",
+  "n_participants": 40,
+  "disclaimer": "Research benchmark on a small public dataset with participant-grouped cross-validation. Not clinically validated; not for diagnosis or screening decisions.",
+  "cv_summary": {
+    "recording_level": {
+      "n": 40,
+      "balanced_accuracy": 0.7466666666666666,
+      "f1": 0.7916666666666666,
+      "sensitivity": 0.76,
+      "specificity": 0.7333333333333333,
+      "roc_auc": 0.8293333333333334,
+      "roc_auc_95ci_participant_bootstrap": [
+        0.6818114177489178,
+        0.9450613839285715
+      ]
+    },
+    "roc_auc_across_repeats": {
+      "mean": 0.8431999999999998,
+      "sd": 0.014050069197140773,
+      "repeats": 5
+    }
+  },
+  "quality_flags": [
+    "SMALL_SAMPLE: only 40 participants"
+  ],
+  "usable_for_research_scores": true
+}

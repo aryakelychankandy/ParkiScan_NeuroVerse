@@ -1,0 +1,73 @@
+{
+  "dataset": "speech_multi",
+  "model": "logistic_regression",
+  "features": [
+    "f1",
+    "f2",
+    "f3",
+    "f4",
+    "f5",
+    "f6",
+    "f7",
+    "f8",
+    "f9",
+    "f10",
+    "f11",
+    "f12",
+    "f13",
+    "f14",
+    "f15",
+    "f16",
+    "f17",
+    "f18",
+    "f19",
+    "f20",
+    "f21",
+    "f22",
+    "f23",
+    "f24",
+    "f25",
+    "f26"
+  ],
+  "task": "classification",
+  "label": "PD (1) vs healthy (0)",
+  "trained_utc": "2026-10-11T20:11:35.227940+00:00",
+  "n_participants": 40,
+  "disclaimer": "Research benchmark on a small public dataset with participant-grouped cross-validation. Not clinically validated; not for diagnosis or screening decisions.",
+  "cv_summary": {
+    "recording_level": {
+      "n": 1040,
+      "balanced_accuracy": 0.5788461538461538,
+      "f1": 0.5828571428571429,
+      "sensitivity": 0.5884615384615385,
+      "specificity": 0.5692307692307692,
+      "roc_auc": 0.6352440828402366,
+      "roc_auc_95ci_participant_bootstrap": [
+        0.5220390546866789,
+        0.7348947710275834
+      ]
+    },
+    "roc_auc_across_repeats": {
+      "mean": 0.5648276627218934,
+      "sd": 0.046651228253625436,
+      "repeats": 5
+    },
+    "participant_level": {
+      "n": 40,
+      "balanced_accuracy": 0.525,
+      "f1": 0.5365853658536586,
+      "sensitivity": 0.55,
+      "specificity": 0.5,
+      "roc_auc": 0.6699999999999999,
+      "roc_auc_95ci_participant_bootstrap": [
+        0.4861934837092732,
+        0.8207407723855094
+      ]
+    }
+  },
+  "quality_flags": [
+    "CI_INCLUDES_CHANCE: the 95% participant-bootstrap CI of ROC AUC includes 0.5",
+    "SMALL_SAMPLE: only 40 participants"
+  ],
+  "usable_for_research_scores": false
+}
