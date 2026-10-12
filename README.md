@@ -11,7 +11,6 @@ Parkinson's disease is usually detected late and monitored only in occasional cl
 ParkiScan Neuroverse turns assessment into an accessible game. A participant plays short tasks (eye tracking, voice, memory, spiral drawing, reaction, gait), seated or standing, while a webcam, microphone and two low-cost wearable motion sensors record movement features. A local service turns these into a per-session summary that a clinician or caregiver can review and compare over time.
 
 ## Architecture
-![Uploading image.png…]()
 
 ![ParkiScan Neuroverse architecture](docs/architecture.png)
 
