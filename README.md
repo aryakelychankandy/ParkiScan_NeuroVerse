@@ -22,7 +22,7 @@ ParkiScan Neuroverse turns assessment into an accessible game. A participant pla
 | 4. Output | Per-session JSON summary with features, quality warnings and notices. No diagnosis, no risk label |
 | Planned | Multimodal fusion, clinician/caregiver report, adaptive rehab missions. **Not built yet** |
 
-Everything runs on the participant's own computer. The service binds to localhost and uploads nothing. Source for the diagram: [`docs/architecture.mmd`](docs/architecture.mmd) (SVG also in `docs/`).
+
 
 ## Repository layout<img width="3168" height="2506" alt="architecture" src="https://github.com/user-attachments/assets/3280f530-8833-4bd0-8690-154f22b7526f" />
 
