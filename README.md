@@ -13,7 +13,7 @@ ParkiScan Neuroverse turns assessment into an accessible game. A participant pla
 
 ## Architecture
 <img width="3004" height="2830" alt="architecture" src="https://github.com/user-attachments/assets/1a514b4a-3669-4132-83cd-aae87c3525b4" />
-![Uploading architecture.png…]()
+
 ![ParkiScan Neuroverse architecture](docs/architecture.png)
 
 | Layer | What it is in this repo |
